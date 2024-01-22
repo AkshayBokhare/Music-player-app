@@ -141,5 +141,16 @@
     }
 
 
+15 - ScreenShots
+
+![1](https://github.com/NTS-AkshayBokhare/Music-player-app/assets/138112705/82e13eea-41dc-4a9d-962f-5bf00cea3f0c)
+
+![2](https://github.com/NTS-AkshayBokhare/Music-player-app/assets/138112705/935747f2-a8ca-48e8-a226-942a0af090e3)
+
+![3](https://github.com/NTS-AkshayBokhare/Music-player-app/assets/138112705/63261e4e-8ac8-4eda-935d-d367242b062f)
+
+![4](https://github.com/NTS-AkshayBokhare/Music-player-app/assets/138112705/ad962055-7c7f-4baa-bdcb-2826a17a5770)
+
+![5](https://github.com/NTS-AkshayBokhare/Music-player-app/assets/138112705/108d5957-04ac-4fd4-aff2-b35dc26e3c8c)
 
 	
