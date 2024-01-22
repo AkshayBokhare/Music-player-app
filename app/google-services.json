@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "499309572545",
+    "firebase_url": "https://music-player-3da35-default-rtdb.firebaseio.com",
+    "project_id": "music-player-3da35",
+    "storage_bucket": "music-player-3da35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499309572545:android:04936fb2b97c24ecc93f40",
+        "android_client_info": {
+          "package_name": "com.nts.musicplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdzMEWc0Oa7WNF2TU-BKOmXdXtEBobspE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+        <style name = "Base.Theme.MusicPlayer"  parent =  "Theme.MaterialComponents.DayNight.DarkActionBar">
+            <!--Primary Brand Color.-->
+            <item name="colorPrimary">#EE8652</item>
+            <item name="colorPrimaryVariant">@color/purple500</item>
+            <item  name="colorOnPrimary">@color/white</item>
+            <!--SecondaryBrandColor.-->
+            <item name="colorSecondary">@color/teal200</item>
+          <item name="colorSecondaryVariant">@color/teal700</item>
+
+        <!--statusBar Color.-->
+        <item name="android:statusBarColor">#EE8652</item>
+    </style>
+
+    <style name="Theme.MusicPlayer" parent="Base.Theme.MusicPlayer" />
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/wave_bottom"
+    android:orientation="horizontal">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/songProfile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/song_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Song Name"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toEndOf="@+id/songProfile_image"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4704EA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageButton_pause"
+        android:layout_width="36dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_stop"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_play"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageButton_play"
+        android:layout_width="36dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="24dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_pause"
+        app:layout_constraintStart_toEndOf="@+id/songProfile_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageButton_stop"
+        android:layout_width="36dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="52dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
